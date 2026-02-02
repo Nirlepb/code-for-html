@@ -1,0 +1,16 @@
+.flag{
+    width: 18px;
+    height: 12px;
+         margin-right: 8px;
+  vertical-align: middle;
+
+}
+body{
+            background-color:wheat;
+            backface-visibility: visible;
+        }
+#n1{ 
+    background-color: aqua;
+    
+
+}
