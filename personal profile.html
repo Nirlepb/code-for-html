@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <title>personal profile</title>
+   <style>
+    textarea{
+        display: block;    /* Forces it to its own line */
+        margin: 20px auto; /* Centers it horizontally */
+        width: 300px;    
+    }
+    form{
+      background-color: aquamarine;
+      width: 300;
+      height: auto;
+      align-items: center;
+    } 
+    body{
+      align-items: center;
+      background-color: orange;
+    }  
+     /* Set a specific width */
+     table{
+      background-color: aquamarine;
+      border-color: white;
+      
+     }
+     h1{
+      background-color: violet;
+     }
+     .d1.submit{
+      background-color: green;
+     }
+     .d1.reset{
+      background-color: red;
+     }
+     .d1.click{
+      background-color: blue;
+     }
+     .r{
+      font-style: oblique;
+     }
+     .s{
+      font-style: italic;
+     }
+
+   </style>
+   
+</head>
+<body>
+    <h1 style="color:deeppink" bgcolor="voilet"><center> WELCOME TO AMRITA</center></h1>
+    <form>
+       
+      <center><h2>Personal Profile Form</h2></center>
+      <table align="center" cellpadding="6" cellspacing="0" border="10" >
+         <tr>
+<td><b>Name</b></td>
+<td><input type="text" required placeholder="ex:-NIRLEP"></td>
+</tr>
+
+<tr>
+<td><b>Age</b></td>
+<td><input type="number" required placeholder="0-100"></td>
+</tr>
+
+<tr>
+<td><b>Contact Number</b></td>
+<td>
+<input type="text" pattern="[0-9]{10}" placeholder="10 digit number" required>
+</td>
+</tr>
+
+<tr>
+<td><b>Roll Number</b></td>
+<td>
+<input type="text" pattern="CB\.SC\.U4CSE25[0-9]{3}"
+placeholder="CB.SC.U4CSE25XXX" required>
+</td>
+</tr>
+
+<tr>
+<td><b>Address</b></td>
+<td>
+<textarea rows="3" cols="30" maxlength="100" placeholder="ex:- khammam telangana 507002"></textarea>
+</td>
+</tr>
+
+<tr>
+<td><b>About Yourself</b></td>
+<td>
+<textarea rows="5" cols="30" maxlength="500"></textarea>
+</td>
+</tr>
+
+<tr>
+<td><b>Nationality</b></td>
+<td>
+<input type="radio" name="nation"> Indian
+<input type="radio" name="nation"> NRI
+</td>
+</tr>
+<tr>
+   <td><b>PINCODE</b></td>
+   <td><input type="number" name="pincode" pattern="[0-9]{6}" maxlength="6">enter the pincode</td>
+</tr>
+
+<tr>
+<td><b>Hobbies</b></td>
+<td>
+<input type="checkbox" class="r"> Reading
+<input type="checkbox" class="s"> Sports
+<input type="checkbox" class="m"> Music
+<input type="checkbox" class="t"> Traveling
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit" class="d1 submit">
+<input type="reset" value="Reset" class="d1 reset">
+<input type="button" value="Click" class="d1 click">
+</td>
+</tr>
+<tr>
+   <td><label>lang known</label></td>
+
+<td><div class="checkbox-lan">
+<input type="checkbox"> hindi
+<input type="checkbox"> telugu
+<input type="checkbox"> bhojpuri
+<input type="checkbox"> marthi
+<input type="checkbox"> kannada
+<input type="checkbox"> tamil</td>
+         
+</tr>
+
+      </table>
+
+
+
+        </form>
+    
+</body>
+</html>
